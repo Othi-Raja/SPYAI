@@ -84,6 +84,9 @@ border-radius: 50%;
     overflow-y: hidden;  transition: 1s linear;
  
 }
+.rem1{
+filter: drop-shadow(6px 6px 10px pink);
+}
 .box1{
     
     border: 2px solid pink;
