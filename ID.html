@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <div>NAMEEEE :<span id="name"></span></div>
+    <div>MAIL :<span id="mail"></span></div>
+    <script>
+
+        const Name = localStorage.getItem('name');
+        const Mail = localStorage.getItem('mail');
+
+        document.getElementById('name').textContent = Name;
+        document.getElementById('mail').textContent = Mail;
+    </script>
+</body>
+</html>
